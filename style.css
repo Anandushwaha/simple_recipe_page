@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 15px;
+  background-color: hsl(30, 54%, 90%);
+}
+.main {
+  background-color: white;
+  margin: auto;
+  margin-top: 4%;
+  width: 55vw;
+  height: 100%;
+  border-radius: 2%;
+}
+.main img {
+  width: 80%;
+  margin-left: 9%;
+  margin-top: 8%;
+
+  border-radius: 2%;
+}
+.description {
+  margin: 10px;
+}
+.description h2 {
+  margin-left: 20px;
+  line-height: 2;
+}
+.description p {
+  margin-left: 35px;
+  margin-right: 10px;
+  word-spacing: 4px;
+}
+/* Stone 100: hsl(30, 54%, 90%)
+- Stone 150: hsl(30, 18%, 87%)
+- Stone 600: hsl(30, 10%, 34%)
+- Stone 900: hsl(24, 5%, 18%)
+
+- Brown 800: hsl(14, 45%, 36%)
+
+- Rose 800: hsl(332, 51%, 32%)
+- Rose 50: hsl(330, 100%, 98%) */
+
+.time {
+  background-color: hsl(330, 100%, 98%);
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 2%;
+  margin-bottom: 20px;
+}
+.time ul li {
+  margin-left: 30px;
+  line-height: 1.5;
+}
+.time h3 {
+  padding: 3%;
+  margin-left: 15px;
+  padding-bottom: 2%;
+
+  color: hsl(14, 45%, 36%);
+}
+.ingrediants ul li {
+  margin-left: 35px;
+  line-height: 1.5;
+}
+.ingrediants {
+  margin-top: 30px;
+
+  margin: 3%;
+}
+.ingrediants h2 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.instruction h2 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.instruction {
+  margin-top: 20px;
+  border-top: 2px solid rgba(212, 197, 197, 0.317);
+}
+.instruction ol li {
+  margin-left: 50px;
+  line-height: 2;
+}
+.nutrician {
+  border-top: 2px solid black;
+  margin-top: 20px;
+}
+.nutrician h2 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.nutrician p {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 80%;
+}
+
+th,
+td {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  font-weight: bold;
+  color: #333;
+}
+
+td {
+  text-align: center;
+}
+
+.nutrician table {
+  margin-left: 40px;
+}
+li::marker {
+  color: hsl(14, 45%, 36%);
+}
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+.instruction li {
+  margin-right: 20px;
+}
+/* Mobile devices (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  .main {
+    width: 90vw;
+    margin-top: 10%;
+  }
+  .main img {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  .description {
+    margin: 5px;
+  }
+  .description h2 {
+    margin-left: 10px;
+  }
+  .description p {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .time {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+  .time ul li {
+    margin-left: 20px;
+  }
+  .ingrediants {
+    margin-top: 20px;
+  }
+  .ingrediants ul li {
+    margin-left: 20px;
+  }
+  .instruction {
+    margin-top: 15px;
+  }
+  .instruction ol li {
+    margin-left: 30px;
+  }
+  .nutrician {
+    margin-top: 15px;
+  }
+  .nutrician h2 {
+    margin-left: 10px;
+  }
+  .nutrician p {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  table {
+    width: 95%;
+  }
+  th,
+  td {
+    padding: 10px;
+  }
+  .nutrician table {
+    margin-left: 20px;
+  }
+}
